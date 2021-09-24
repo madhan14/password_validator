@@ -13,5 +13,29 @@ int main() {
 
 void validate() {
   if(strlen(password) < 8) {
-    printf("Password length is lesser than 8");
-  } else if(
+     printf("Password length is lesser than 8");
+   } else {
+    flag = 1;
+    }
+  
+  if(isalnum(password) {
+      flag = flag + 1;
+    } else {
+      flag = flag;
+   }
+     
+  if(islower(password[i])) {
+      flag = flag + 1;
+    } else {
+      flag = flag;
+   }
+     
+  if(issuper(password[i])) {
+      flag = flag +1;
+  } else {
+    flag = flag;
+  }
+     
+  if(
+     
+     
